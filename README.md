@@ -1,13 +1,11 @@
-#WARNING: PCB IS NOT VALIDATED!!!
+# WARNING: PCB IS NOT VALIDATED!!!
 
 # OpenVideoModulator
 OpenVideoModulator is an Open Hardware adapter that converts an RGB video signal to Composite and S-Video.
 
-This is a fork of https://github.com/SukkoPera/OpenVideoModulator with independent RCA and SVideo connector as well as a pin header.
+This is a fork of https://github.com/SukkoPera/OpenVideoModulator with independent RCA and SVideo connector as well as a pin header for output signals.
+
  
-
-
-
 ![Board](https://raw.githubusercontent.com/issalig/OpenVideoModulator/master/img/render-top.png)
 
 ## Summary

@@ -5,8 +5,11 @@ OpenVideoModulator is an Open Hardware adapter that converts an RGB video signal
 
 This is a fork of https://github.com/SukkoPera/OpenVideoModulator with independent RCA and SVideo connector as well as a pin header for output signals.
 
- 
 ![Board](https://raw.githubusercontent.com/issalig/OpenVideoModulator/master/img/render-top.png)
+
+There is also an idea to design a pcb and fit it in a CPC 6128
+
+![Board](https://raw.githubusercontent.com/issalig/OpenVideoModulator/master/img/pcb_6128.png)
 
 ## Summary
 OpenVideoModulator is an Open Hardware implementation of [a small circuit found on the Amstrad CPC Wiki](http://www.cpcwiki.eu/index.php/RGB_SVideo) that is able to produce a composite video signal from separate red, green and blue color component signals (plus sync). Since it uses the AD724 encoder, it is also able to produce an S-Video (Y/C) signal and it supports both the PAL and NTSC standards.

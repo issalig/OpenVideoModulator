@@ -1,0 +1,113 @@
+
+(rules PCB OpenVideoModulator
+  (snap_angle 
+    fortyfive_degree
+  )
+  (autoroute_settings
+    (fanout off)
+    (eu.mihosoft.freerouting.autoroute on)
+    (postroute on)
+    (vias on)
+    (via_costs 50)
+    (plane_via_costs 5)
+    (start_ripup_costs 100)
+    (start_pass_no 1010)
+    (layer_rule F.Cu
+      (active on)
+      (preferred_direction horizontal)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 2.5)
+    )
+    (layer_rule B.Cu
+      (active on)
+      (preferred_direction vertical)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 1.6)
+    )
+  )
+  (rule
+    (width 250.0)
+    (clear 200.2)
+    (clear 125.0 (type smd_to_turn_gap))
+    (clear 50.0 (type smd_smd))
+  )
+  (padstack "Via[0-1]_600:400_um"
+    (shape
+      (circle F.Cu 600.0 0.0 0.0)
+    )
+    (shape
+      (circle B.Cu 600.0 0.0 0.0)
+    )
+    (attach off)
+  )
+  (padstack "Via[0-1]_800:600_um"
+    (shape
+      (circle F.Cu 800.0 0.0 0.0)
+    )
+    (shape
+      (circle B.Cu 800.0 0.0 0.0)
+    )
+    (attach off)
+  )
+  (via 
+    "Via[0-1]_600:400_um" "Via[0-1]_600:400_um" default
+  )
+  (via 
+    "Via[0-1]_800:600_um" "Via[0-1]_800:600_um" default
+  )
+  (via 
+    "Via[0-1]_600:400_um-kicad_default" "Via[0-1]_600:400_um" "kicad_default"
+  )
+  (via 
+    "Via[0-1]_800:600_um-kicad_default" "Via[0-1]_800:600_um" "kicad_default"
+  )
+  (via 
+    "Via[0-1]_600:400_um-Power" "Via[0-1]_600:400_um" Power
+  )
+  (via 
+    "Via[0-1]_800:600_um-Power" "Via[0-1]_800:600_um" Power
+  )
+  (via_rule
+    default "Via[0-1]_600:400_um"
+  )
+  (via_rule
+    "kicad_default" "Via[0-1]_600:400_um-kicad_default"
+  )
+  (via_rule
+    Power "Via[0-1]_800:600_um-Power"
+  )
+  (class default
+    (clearance_class default)
+    (via_rule default)
+    (rule
+      (width 250.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+  (class "kicad_default"
+    "Net-(C1-Pad1)" "Net-(C2-Pad1)" "/red_in" "Net-(C3-Pad1)" "/green_in" "/blue_in" "Net-(C4-Pad1)" "Net-(C8-Pad1)"
+    "Net-(C8-Pad2)" "Net-(C9-Pad2)" "Net-(C9-Pad1)" "Net-(C10-Pad1)" "Net-(C10-Pad2)" "/sync_in" "Net-(JP1-Pad2)" COMP
+    CRMA LUMA
+    (clearance_class "kicad_default")
+    (via_rule kicad_default)
+    (rule
+      (width 250.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+  (class Power
+    GND VAA
+    (clearance_class Power)
+    (via_rule Power)
+    (rule
+      (width 500.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+)

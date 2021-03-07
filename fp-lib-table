@@ -1,3 +1,4 @@
 (fp_lib_table
   (lib (name OpenVideoModulator)(type KiCad)(uri ${KIPRJMOD}/OpenVideoModulator.pretty)(options "")(descr ""))
+  (lib (name conn_av)(type KiCad)(uri /home/issalig/Descargas/ghaire/OpenVideoModulator/OpenVideoModulator.pretty/w_conn_av.pretty)(options "")(descr ""))
 )

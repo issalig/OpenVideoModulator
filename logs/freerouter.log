@@ -1,0 +1,20 @@
+2021-03-08 19:30:13.696 [main] INFO  eu.mihosoft.freerouting.FreeRouting - Freerouting application is started.
+2021-03-08 19:30:13.707 [main] INFO  eu.mihosoft.freerouting.FreeRouting - Opening 'OpenVideoModulator.dsn'...
+2021-03-08 19:30:15.472 [main] INFO  eu.mihosoft.freerouting.FreeRouting - Opening 'OpenVideoModulator.rules'...
+2021-03-08 19:30:18.759 [main] ERROR eu.mihosoft.freerouting.FreeRouting - null
+java.lang.NullPointerException: null
+	at eu.mihosoft.freerouting.designforms.specctra.Library.read_padstack_scope(Library.java:348) ~[freerouting-executable.jar:unspecified]
+	at eu.mihosoft.freerouting.designforms.specctra.RulesFile.read(RulesFile.java:142) ~[freerouting-executable.jar:unspecified]
+	at eu.mihosoft.freerouting.gui.DesignFile.read_rules_file(DesignFile.java:288) ~[freerouting-executable.jar:unspecified]
+	at eu.mihosoft.freerouting.gui.MainApplication.create_board_frame(MainApplication.java:386) ~[freerouting-executable.jar:unspecified]
+	at eu.mihosoft.freerouting.gui.MainApplication.main(MainApplication.java:96) ~[freerouting-executable.jar:unspecified]
+2021-03-08 19:30:39.812 [main] INFO  eu.mihosoft.freerouting.FreeRouting - Freerouting application is started.
+2021-03-08 19:30:39.822 [main] INFO  eu.mihosoft.freerouting.FreeRouting - Opening 'OpenVideoModulator.dsn'...
+2021-03-08 19:30:40.721 [main] INFO  eu.mihosoft.freerouting.FreeRouting - Opening 'OpenVideoModulator.rules'...
+2021-03-08 19:30:43.460 [main] ERROR eu.mihosoft.freerouting.FreeRouting - null
+java.lang.NullPointerException: null
+	at eu.mihosoft.freerouting.designforms.specctra.Library.read_padstack_scope(Library.java:348) ~[freerouting-executable.jar:unspecified]
+	at eu.mihosoft.freerouting.designforms.specctra.RulesFile.read(RulesFile.java:142) ~[freerouting-executable.jar:unspecified]
+	at eu.mihosoft.freerouting.gui.DesignFile.read_rules_file(DesignFile.java:288) ~[freerouting-executable.jar:unspecified]
+	at eu.mihosoft.freerouting.gui.MainApplication.create_board_frame(MainApplication.java:386) ~[freerouting-executable.jar:unspecified]
+	at eu.mihosoft.freerouting.gui.MainApplication.main(MainApplication.java:96) ~[freerouting-executable.jar:unspecified]

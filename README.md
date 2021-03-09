@@ -7,7 +7,7 @@ This is a fork of https://github.com/SukkoPera/OpenVideoModulator with independe
 
 ![Board](https://raw.githubusercontent.com/issalig/OpenVideoModulator/master/img/render-top.png)
 
-There is also an idea to design a pcb and fit it in a CPC 6128
+There is also an idea to design a pcb and fit it inside a CPC 6128 between printer and expansion port but with barrel capacitors there is not much space.
 
 ![Board](https://raw.githubusercontent.com/issalig/OpenVideoModulator/master/img/pcb_6128.png)
 

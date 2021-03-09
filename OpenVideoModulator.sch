@@ -573,20 +573,16 @@ Wire Wire Line
 Wire Wire Line
 	4710 3045 4875 3045
 $Comp
-L OpenVideoModulator-rescue:CONN_6-conn J1
+L Connector:Conn_01x07_Male J1
 U 1 1 5C9A7D83
-P 2075 1705
-F 0 "J1" H 1944 2192 60  0000 C CNN
-F 1 "CONN_6" H 1944 2086 60  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" H 2075 1705 50  0001 C CNN
-F 3 "" H 2075 1705 50  0001 C CNN
-	1    2075 1705
-	-1   0    0    -1  
+P 2225 1655
+F 0 "J1" H 2094 2142 60  0000 C CNN
+F 1 "CONN_7" H 2094 2036 60  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x07_P2.54mm_Vertical" H 2225 1655 50  0001 C CNN
+F 3 "" H 2225 1655 50  0001 C CNN
+	1    2225 1655
+	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	2425 1455 2525 1455
-Wire Wire Line
-	2425 1555 2525 1555
 $Comp
 L power:VCC #PWR015
 U 1 1 5C9AE68E
@@ -598,10 +594,6 @@ F 3 "" H 2525 1335 50  0001 C CNN
 	1    2525 1335
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	2525 1335 2525 1455
-Wire Wire Line
-	2525 1555 2525 2050
 $Comp
 L power:GND #PWR016
 U 1 1 5C9B589D
@@ -613,13 +605,13 @@ F 3 "" H 2525 2050 50  0001 C CNN
 	1    2525 2050
 	1    0    0    -1  
 $EndComp
-Text Label 2585 1655 0    50   ~ 0
+Text Label 2570 1955 0    50   ~ 0
 sync_in
-Text Label 2585 1755 0    50   ~ 0
+Text Label 2575 1855 0    50   ~ 0
 red_in
-Text Label 2585 1855 0    50   ~ 0
+Text Label 2570 1755 0    50   ~ 0
 green_in
-Text Label 2585 1955 0    50   ~ 0
+Text Label 2565 1655 0    50   ~ 0
 blue_in
 Wire Wire Line
 	2425 1855 2905 1855
@@ -887,19 +879,19 @@ Connection ~ 10555 5405
 $Comp
 L power:GND #PWR0112
 U 1 1 60610F39
-P 8400 1890
-F 0 "#PWR0112" H 8400 1640 50  0001 C CNN
-F 1 "GND" V 8405 1762 50  0000 R CNN
-F 2 "" H 8400 1890 50  0001 C CNN
-F 3 "" H 8400 1890 50  0001 C CNN
-	1    8400 1890
+P 8400 1590
+F 0 "#PWR0112" H 8400 1340 50  0001 C CNN
+F 1 "GND" V 8405 1462 50  0000 R CNN
+F 2 "" H 8400 1590 50  0001 C CNN
+F 3 "" H 8400 1590 50  0001 C CNN
+	1    8400 1590
 	0    -1   -1   0   
 $EndComp
-Text GLabel 8400 1690 2    50   Input ~ 0
-CRMA
 Text GLabel 8400 1790 2    50   Input ~ 0
+CRMA
+Text GLabel 8400 1890 2    50   Input ~ 0
 LUMA
-Text GLabel 8400 1590 2    50   Input ~ 0
+Text GLabel 8400 1690 2    50   Input ~ 0
 COMP
 $Comp
 L Connector:Conn_01x04_Male J5
@@ -971,4 +963,13 @@ F 3 "" H 2660 2825 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	2500 2825 2660 2825
+Wire Wire Line
+	2525 1335 2525 1355
+Wire Wire Line
+	2525 1355 2425 1355
+NoConn ~ 2430 1555
+Wire Wire Line
+	2525 2050 2525 1455
+Wire Wire Line
+	2525 1455 2425 1455
 $EndSCHEMATC

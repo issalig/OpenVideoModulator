@@ -21,8 +21,12 @@
       )
     )
     (boundary
-      (path pcb 0  152729 -74497  113971 -74497  113971 -49455  152729 -49455
-            152729 -74497)
+      (path pcb 0  147066 -73660  114046 -73660  114046 -49784  147066 -49784
+            147066 -73660)
+      (path pcb 0  149542 -60014  147842 -60014  147842 -58214  149542 -58214
+            149542 -60014)
+      (path pcb 0  149542 -51514  147842 -51514  147842 -49714  149542 -49714
+            149542 -51514)
     )
     (via "Via[0-1]_600:400_um" "Via[0-1]_800:600_um")
     (rule
@@ -34,53 +38,50 @@
   )
   (placement
     (component Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical
-      (place J5 139446 -51054 front 0 (PN Conn_01x04_Male))
+      (place J5 137287 -51308 front 0 (PN Conn_01x04_Male))
     )
     (component Diode_SMD:D_SMA
-      (place D1 129540 -61468 front 90 (PN 1N4001))
+      (place D1 126873 -61500 front 90 (PN 1N4001))
     )
     (component Capacitor_THT:CP_Radial_D5.0mm_P2.00mm
-      (place C10 136652 -72136 front 90 (PN 220u))
-      (place C9 123952 -72136 front 90 (PN 220u))
-      (place C8 130302 -72136 front 90 (PN 220u))
-      (place C6 117094 -72136 front 90 (PN 100u))
+      (place C10 134366 -71755 front 90 (PN 220u))
+      (place C9 122809 -71755 front 90 (PN 220u))
+      (place C8 128524 -71755 front 90 (PN 220u))
+      (place C6 117094 -71755 front 90 (PN 100u))
     )
     (component Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder
-      (place C7 124968 -61459 front 90 (PN 100n))
-      (place C4 121412 -64262 back 0 (PN 100n))
-      (place C5 130302 -55372 back 0 (PN 100n))
-      (place R2 121412 -57404 back 180 (PN 75))
-      (place R4 134121 -62230 front 180 (PN 75))
-      (place R5 134112 -58674 front 180 (PN 75))
+      (place C7 120904 -64516 front 270 (PN 100n))
+      (place C4 121412 -55118 back 0 (PN 100n))
+      (place C5 129150 -55245 back 0 (PN 100n))
+      (place R2 121412 -61976 back 180 (PN 75))
+      (place R4 132724 -58547 front 180 (PN 75))
+      (place R5 132724 -65405 front 180 (PN 75))
     )
     (component "OpenVideoModulator:CUI_MD-40S_1234"
-      (place J4 146304 -67310 front 90 (PN "Mini-DIN-4"))
+      (place J4 144145 -67512 front 90 (PN "Mini-DIN-4"))
     )
     (component "OpenVideoModulator:CUI_RCJ-044"
-      (place J3 148336 -54864 front 0 (PN RCA))
+      (place J3 145542 -54864 front 0 (PN RCA))
     )
     (component Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder::1
       (place C1 121412 -52832 back 0 (PN 10pF))
-      (place C2 121412 -59690 back 0 (PN 100n))
-      (place C3 121412 -55118 back 0 (PN 100n))
-      (place R1 121412 -61976 back 180 (PN 75))
-      (place R3 121412 -66548 back 180 (PN 75))
-      (place R6 134121 -65786 front 180 (PN 75))
+      (place C2 121403 -64262 back 0 (PN 100n))
+      (place C3 121412 -59690 back 0 (PN 100n))
+      (place R1 121403 -66421 back 180 (PN 75))
+      (place R3 121421 -57404 back 180 (PN 75))
+      (place R6 132724 -61976 front 180 (PN 75))
     )
     (component Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical
       (place J1 116078 -52070 front 0 (PN CONN_6))
     )
-    (component "Symbol:OSHW-Logo2_7.3x6mm_Copper"
-      (place P1 148336 -61722 back 0 (PN OSHW_LOGO))
-    )
     (component "Package_SO:SOIC-16W_7.5x10.3mm_P1.27mm"
-      (place U1 130302 -61976 back 180 (PN AD724))
+      (place U1 129618 -61976 back 180 (PN AD724))
     )
     (component "Crystal:Crystal_HC49-4H_Vertical"
       (place Y1 130048 -53086 front 180 (PN 4.433619M))
     )
     (component "OpenVideoModulator:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm"
-      (place JP1 121222 -61468 front 90 (PN NTSC/~PAL))
+      (place JP1 120841 -58039 front 90 (PN NTSC/~PAL))
     )
   )
   (library
@@ -392,8 +393,6 @@
       (pin Oval[A]Pad_1700x1700_um 5 0 -10160)
       (pin Oval[A]Pad_1700x1700_um 6 0 -12700)
     )
-    (image "Symbol:OSHW-Logo2_7.3x6mm_Copper"
-    )
     (image "Package_SO:SOIC-16W_7.5x10.3mm_P1.27mm"
       (outline (path signal 150  -2750 5150  3750 5150))
       (outline (path signal 150  3750 5150  3750 -5150))
@@ -559,23 +558,23 @@
       (pins C1-1 U1-3 Y1-2)
     )
     (net GND
-      (pins J5-4 D1-2 C7-1 C6-2 J4-1 J4-2 J3-2 C1-2 C5-1 J1-2 R1-2 R2-2 R3-2 U1-2
+      (pins J5-1 D1-2 C7-1 C6-2 J4-1 J4-2 J3-2 C1-2 C5-1 J1-2 R1-2 R2-2 R3-2 U1-2
         U1-12 U1-13 Y1-1 JP1-1)
     )
     (net "Net-(C2-Pad1)"
       (pins C2-1 U1-6)
     )
     (net /red_in
-      (pins C2-2 J1-4 R1-1)
+      (pins C2-2 J1-5 R1-1)
     )
     (net "Net-(C3-Pad1)"
       (pins C3-1 U1-7)
     )
     (net /green_in
-      (pins C3-2 J1-5 R2-1)
+      (pins C3-2 J1-4 R2-1)
     )
     (net /blue_in
-      (pins C4-2 J1-6 R3-1)
+      (pins C4-2 J1-3 R3-1)
     )
     (net "Net-(C4-Pad1)"
       (pins C4-1 U1-8)
@@ -602,24 +601,24 @@
       (pins C10-2 R6-2)
     )
     (net /sync_in
-      (pins J1-3 U1-16)
+      (pins J1-6 U1-16)
     )
     (net "Net-(JP1-Pad2)"
       (pins U1-1 JP1-2)
     )
     (net COMP
-      (pins J5-1 J3-1 R4-1)
+      (pins J5-2 J3-1 R4-1)
     )
     (net CRMA
-      (pins J5-2 J4-4 R6-1)
+      (pins J5-3 J4-4 R6-1)
     )
     (net LUMA
-      (pins J5-3 J4-3 R5-1)
+      (pins J5-4 J4-3 R5-1)
     )
     (class kicad_default "" /blue_in /green_in /red_in /sync_in COMP CRMA
       LUMA "Net-(C1-Pad1)" "Net-(C10-Pad1)" "Net-(C10-Pad2)" "Net-(C2-Pad1)"
       "Net-(C3-Pad1)" "Net-(C4-Pad1)" "Net-(C8-Pad1)" "Net-(C8-Pad2)" "Net-(C9-Pad1)"
-      "Net-(C9-Pad2)" "Net-(J5-Pad1)" "Net-(JP1-Pad2)"
+      "Net-(C9-Pad2)" "Net-(J1-Pad4)" "Net-(J1-Pad6)" "Net-(J5-Pad1)" "Net-(JP1-Pad2)"
       (circuit
         (use_via Via[0-1]_600:400_um)
       )

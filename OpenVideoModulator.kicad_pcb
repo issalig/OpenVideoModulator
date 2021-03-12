@@ -1985,7 +1985,7 @@
   (gr_text NTSC (at 128.524 51.435 90) (layer F.SilkS) (tstamp 6048CB24)
     (effects (font (size 0.8 0.8) (thickness 0.15)))
   )
-  (gr_text "github.com/issalig/\nOpenVideoModulator" (at 124.206 70.612) (layer F.SilkS) (tstamp 604A84AB)
+  (gr_text "github.com/issalig/\nrgbs" (at 124.206 70.612) (layer F.SilkS) (tstamp 604A84AB)
     (effects (font (size 0.7 0.7) (thickness 0.15)))
   )
   (gr_text "Licensed\nunder CERN\nOHL v.2.0" (at 145.034 56.261) (layer B.SilkS) (tstamp 604A2A2A)

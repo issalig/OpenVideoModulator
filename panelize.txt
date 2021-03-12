@@ -1,1 +1,1 @@
-https://climbers.net/sbc/kicad-pcb-panelization-javascript/
+kicad-panelizer/panelizer.py --panelx=100 --panely=100  --hrail=5 OpenVideoModulator.kicad_pcb

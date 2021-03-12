@@ -11,7 +11,7 @@
     (via_costs 50)
     (plane_via_costs 5)
     (start_ripup_costs 100)
-    (start_pass_no 4228)
+    (start_pass_no 6707)
     (layer_rule F.Cu
       (active on)
       (preferred_direction horizontal)
@@ -89,7 +89,7 @@
   (class "kicad_default"
     "Net-(C1-Pad1)" "Net-(C2-Pad1)" "/red_in" "Net-(C3-Pad1)" "/green_in" "/blue_in" "Net-(C4-Pad1)" "Net-(C8-Pad1)"
     "Net-(C8-Pad2)" "Net-(C9-Pad2)" "Net-(C9-Pad1)" "Net-(C10-Pad1)" "Net-(C10-Pad2)" "/sync_in" "Net-(JP1-Pad2)" COMP
-    CRMA LUMA
+    CRMA LUMA "Net-(J1-Pad3)"
     (clearance_class "kicad_default")
     (via_rule kicad_default)
     (rule

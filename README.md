@@ -5,9 +5,9 @@ rgbs is an Open Hardware adapter that converts an RGB video signal to Composite 
 
 This is a fork of https://github.com/SukkoPera/OpenVideoModulator with independent RCA and SVideo connector, pin header for output signals and 5V DC jack.
 
-![Board](https://raw.githubusercontent.com/issalig/OpenVideoModulator/master/img/OpenVideoModulator-top.png)
+![PCB top](https://raw.githubusercontent.com/issalig/OpenVideoModulator/master/img/OpenVideoModulator_top.png)
 
-![Board](https://raw.githubusercontent.com/issalig/OpenVideoModulator/master/img/OpenVideoModulator-bottom.png)
+![PCB bottom](https://raw.githubusercontent.com/issalig/OpenVideoModulator/master/img/OpenVideoModulator_bottom.png)
 
 There are also designs for breakout boards that could be inside CPC 464 and 6128 and it would be plugged on the space left near the expansion port. I have not physically checked this. So, trying is up to you.
 

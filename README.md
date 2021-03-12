@@ -9,7 +9,10 @@ This is a fork of https://github.com/SukkoPera/OpenVideoModulator with independe
 
 ![PCB bottom](https://raw.githubusercontent.com/issalig/OpenVideoModulator/master/img/OpenVideoModulator_bottom.png)
 
-There are also designs for breakout boards that could be inside CPC 464 and 6128 and it would be plugged on the space left in the left side (viewed from rear) of the expansion port. I have not physically checked this. So, trying is up to you.
+There are also designs for breakout boards that could be inside CPC 464 and 6128 and it would be plugged on the space left in the left side (viewed from rear) of the expansion port. 
+It requires to open the computer and solder wires from RGBS 5V GND to the breakout board, then it could be connected with pinheaders to the main board saving us to have additional 5V line.
+
+I have NOT physically checked this. So, trying is up to you.
 
 ![6128 top](https://raw.githubusercontent.com/issalig/OpenVideoModulator/master/img/cpc6128_internal_video_top.png)
 

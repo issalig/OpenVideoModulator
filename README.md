@@ -9,7 +9,11 @@ This is a fork of https://github.com/SukkoPera/OpenVideoModulator with independe
 
 ![PCB bottom](https://raw.githubusercontent.com/issalig/OpenVideoModulator/master/img/OpenVideoModulator_bottom.png)
 
-There are also designs for breakout boards that could be inside CPC 464 and 6128 and it would be plugged on the space left near the expansion port. I have not physically checked this. So, trying is up to you.
+There are also designs for breakout boards that could be inside CPC 464 and 6128 and it would be plugged on the space left in the left side (viewed from rear) of the expansion port. I have not physically checked this. So, trying is up to you.
+
+![6128 top](https://raw.githubusercontent.com/issalig/OpenVideoModulator/master/img/cpc6128_internal_video_top.png)
+
+![464 top](https://raw.githubusercontent.com/issalig/OpenVideoModulator/master/img/cpc464_internal_video_top.png)
 
 ## Summary
 This project is an Open Hardware implementation of [a small circuit found on the Amstrad CPC Wiki](http://www.cpcwiki.eu/index.php/RGB_SVideo) that is able to produce a composite video signal from separate red, green and blue color component signals (plus sync). Since it uses the AD724 encoder, it is also able to produce an S-Video (Y/C) signal and it supports both the PAL and NTSC standards.

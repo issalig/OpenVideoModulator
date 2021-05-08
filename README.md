@@ -1,5 +1,3 @@
-# WARNING: PCB IS NOT VALIDATED!!!
-
 # rgbs
 rgbs is an Open Hardware adapter that converts an RGB video signal to Composite and S-Video.
 

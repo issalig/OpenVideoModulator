@@ -30,6 +30,17 @@ One of C6 and C7 should be enough. I use a 100uF on C6 but that is probably over
 
 Usage should be straightforward: just provide power (make sure to match the polarity!) and video signals to the board, then get your output from the other side. Note that the *sync* input requires a *composite sync* signal.
 
+## Problems and troubleshooting
+
+If you get BW image check AD724 soldering.
+
+In case of noise, check or change capacitors.
+
+## Known issues
+
+Quality is not the best. On my CPC I get black areas on the right side of characters.
+If you know how to solve just tell it and we will improve the design.
+
 ## License
  Do whatever you want with it but give me credit.
  
